@@ -1,6 +1,7 @@
 import React from 'react';
 import ComParametro from './components/ComParametro';
 import Aleatorio from './components/Aleatorio';
+import Contador from './components/Contador';
 import IsPar from './components/isPar';
 import Card from './components/layout/Card';
 import ListaAlunos from './components/repeticao/ListaAlunos';
@@ -35,6 +36,9 @@ export default () => (
         </Card>
         <Card titulo="Exemplo de Card" color="#FF4C65">
             <IsPar/>
+        </Card>
+        <Card titulo="Exemplo de Card" color="#FF4C65">
+            <Contador/>
         </Card>
     </div>
     </div>
