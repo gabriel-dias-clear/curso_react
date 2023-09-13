@@ -1,5 +1,4 @@
 import React from 'react'
-import './examples/App.css'
 
 const About = props => (
 
@@ -10,4 +9,4 @@ const About = props => (
 
 )
 
-export default App
+export default About

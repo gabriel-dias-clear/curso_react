@@ -1,5 +1,4 @@
 import React from 'react'
-import './examples/App.css'
 
 const Home = props => (
 
@@ -10,4 +9,4 @@ const Home = props => (
 
 )
 
-export default App
+export default Home
