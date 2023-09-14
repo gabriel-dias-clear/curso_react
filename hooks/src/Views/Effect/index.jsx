@@ -1,11 +1,15 @@
-import React from 'react'
+import React, {useRef} from 'react'
 
-const Effect = () =>{
+const Ref = () =>{
+    /* permite criar uma referência mutável que pode ser usada para acessar diretamente um elemento DOM ou para manter uma referência a um valor que não cause uma nova renderização quando for alterado. */
+    const teste = useRef(0)
+    console.log(teste)
     return(
         <>
-            <h1>Effect</h1>
+            <h1>Ref</h1>
+
         </>
     )
 }
 
-export default Effect
+export default Ref
