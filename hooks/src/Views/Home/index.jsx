@@ -7,6 +7,7 @@ const Home = () =>{
         <ul>
             <li><a href="/state">STATE</a></li>
             <li><a href="/effect">EFFECT</a></li>
+            <li><a href="/ref">REF</a></li>
         </ul>
         </>
     )
