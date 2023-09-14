@@ -9,6 +9,8 @@ import {
 import Home from './../src/Views/Home/index'
 import State from './../src/Views/State/index'
 import Effect from './../src/Views/Effect/index'
+import Ref from './../src/Views/Ref/index'
+import Memo from './../src/Views/Memo/index'
 
 const Router = () => {
   return (
@@ -25,6 +27,14 @@ const Router = () => {
            <Route
             path="/effect"
             element={<Effect></Effect>}
+          />
+            <Route
+            path="/ref"
+            element={<Ref></Ref>}
+          />
+            <Route
+            path="/memo"
+            element={<Memo></Memo>}
           />
         </Routes>
       </BrowserRouter>
